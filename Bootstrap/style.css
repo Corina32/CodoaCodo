@@ -24,7 +24,7 @@ font-size:small;
 
 footer{background: linear-gradient(90deg, rgba(25,49,71,1) 0%, rgba(25,49,71,1) 35%, rgba(32,80,124,1) 100%);
   font-size: medium}
-#a, a:visited, a:active, a:hover {
+#a, a:visited, a:active {
   
   text-decoration: underline dotted; color: #000;
 }
@@ -37,10 +37,15 @@ footer{background: linear-gradient(90deg, rgba(25,49,71,1) 0%, rgba(25,49,71,1) 
             #cont{padding: 1rem;display: flex; justify-content: center;}
             #anotate{font-size: small!important;}
             #elemento_footer, #conf{font-size: small;}
+            .opciones2{font-size: small;}
   }
   /* ACOMODAR TERMINOS Y CONDICIONES*/
   @media only screen and (max-width:1400px) and (min-width:992px) {
     #elemento_footer{width: 12%;}
+    
+  }
+  @media only screen and (max-width:1400px){
+    .opciones{padding: 0%!important;}
   }
 
 
